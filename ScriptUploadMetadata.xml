@@ -15,10 +15,12 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="p_AuthToken.dat" Filter="2" />
     <FileEntry Name="msisdn_M.dat" Filter="2" />
+    <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
     <FileEntry Name="p_HOSTNAME.dat" Filter="2" />
     <FileEntry Name="script_operations.xml" Filter="2" />
     <FileEntry Name="combined_AppStart_PAYM.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="109062512440.idx" Filter="1" />
     <FileEntry Name="144583166440.idx" Filter="1" />
     <FileEntry Name="168157296440.idx" Filter="1" />
@@ -87,6 +89,7 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
     <FileEntry Name="WSDL\" Filter="1" />
   </GeneralFiles>

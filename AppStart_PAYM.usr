@@ -36,7 +36,7 @@ Profiles=Default Profile
 [CfgFiles]
 Default Profile=default.cfg
 [Modified Actions]
-vuser_init=0
+vuser_init=1
 Action=1
 vuser_end=0
 [Recorded Actions]
