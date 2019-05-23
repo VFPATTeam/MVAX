@@ -1,0 +1,26 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Custom Request: web_custom_request",
+        "infFile": "t1.inf",
+        "time": 1558425180106
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Custom Request: web_custom_request",
+        "infFile": "t2.inf",
+        "time": 1558425185291
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Custom Request: web_custom_request",
+        "infFile": "t3.inf",
+        "time": 1558425190639
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Custom Request: web_custom_request",
+        "infFile": "t4.inf",
+        "time": 1558425196650
+    }
+]

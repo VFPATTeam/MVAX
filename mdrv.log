@@ -1,0 +1,317 @@
+Virtual User Script started at: 5/21/2019 7:52:58 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "D:\MVAX\Scripts\AppStart_PAYM\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(5): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(5): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(7): web_add_auto_header("Accept") started  	[MsgId: MMSG-26355]
+Action.c(7): web_add_auto_header("Accept") was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_add_auto_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+Action.c(8): web_add_auto_header("Accept-Encoding") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(9): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(12): Notify: Parameter Substitution: parameter "p_AuthToken" =  "EwEC6IUyVq2E9+qIljyDO3z+egEEoz/OyheL9HheecIVM05HunZxiAmv6ghJ2uIWbaAyU4W3PlgmNSIxDrtyJVP2vElswrEjmzyVI+UHRi9YsNA5BjtiY7iAin0r+8SR7BVpfqWm0/Mk7Jsl+6x5pDYmx/GgP+gb5wwUwtJQNTBpue7ppl1T7WDbENFZ8VdudihqTtdVdVeLG5UMXGkMt/fcmOAwWl0odwnTzYkvpGrhfpRvxtPpVSqPUTIwG/D45IAmaJWjRpTe7QijuWzvlpFZ219gIJMzzPE1/2R0aVjI1Ubq6QxqAlW97Nx23ns0gvihb5XRWY8gJ7AU3NJr+A=="
+Action.c(12): web_add_header("authenticationToken") started  	[MsgId: MMSG-26355]
+Action.c(12): web_add_header("authenticationToken") was successful  	[MsgId: MMSG-26392]
+Action.c(13): web_add_header("Root-Subscription") started  	[MsgId: MMSG-26355]
+Action.c(13): web_add_header("Root-Subscription") was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_add_header("Device-UID") started  	[MsgId: MMSG-26355]
+Action.c(14): web_add_header("Device-UID") was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_header("OS-Version") started  	[MsgId: MMSG-26355]
+Action.c(15): web_add_header("OS-Version") was successful  	[MsgId: MMSG-26392]
+Action.c(16): web_add_header("Manufacturer") started  	[MsgId: MMSG-26355]
+Action.c(16): web_add_header("Manufacturer") was successful  	[MsgId: MMSG-26392]
+Action.c(17): web_add_header("Platform") started  	[MsgId: MMSG-26355]
+Action.c(17): web_add_header("Platform") was successful  	[MsgId: MMSG-26392]
+Action.c(18): web_add_header("Device-Model") started  	[MsgId: MMSG-26355]
+Action.c(18): web_add_header("Device-Model") was successful  	[MsgId: MMSG-26392]
+Action.c(19): web_add_header("App-Version") started  	[MsgId: MMSG-26355]
+Action.c(19): web_add_header("App-Version") was successful  	[MsgId: MMSG-26392]
+Action.c(21): Notify: Transaction "MVAX_AppStart_PAYM_01_GetAppConfig" started.
+Action.c(23): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(23): Notify: Parameter Substitution: parameter "p_HOSTNAME" =  "nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk"
+Action.c(23): The request to server https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/appconfig" is done with headers:
+Action.c(23):     :authority = nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk
+Action.c(23):     :method = GET
+Action.c(23):     :path = /app/api/v1/appconfig
+Action.c(23):     :scheme = https
+Action.c(23):     authenticationtoken = EwEC6IUyVq2E9+qIljyDO3z+egEEoz/OyheL9HheecIVM05HunZxiAmv6ghJ2uIWbaAy
+Action.c(23):     U4W3PlgmNSIxDrtyJVP2vElswrEjmzyVI+UHRi9YsNA5BjtiY7iAin0r+8SR7BVpfqWm0/Mk7Jsl+6x5pDYmx/GgP+
+Action.c(23):     gb5wwUwtJQNTBpue7ppl1T7WDbENFZ8VdudihqTtdVdVeLG5UMXGkMt/fcmOAwWl0odwnTzYkvpGrhfpRvxtPpVSqP
+Action.c(23):     UTIwG/D45IAmaJWjRpTe7QijuWzvlpFZ219gIJMzzPE1/2R0aVjI1Ubq6QxqAlW97Nx23ns0gvihb5XRWY8gJ7AU3N
+Action.c(23):     Jr+A==
+Action.c(23):     root-subscription = 1
+Action.c(23):     device-uid = UID-1234
+Action.c(23):     os-version = 7.0.0
+Action.c(23):     manufacturer = Samsung
+Action.c(23):     platform = Android
+Action.c(23):     device-model = Galaxy S3
+Action.c(23):     app-version = 8.0
+Action.c(23):     accept = application/json
+Action.c(23):     accept-encoding = gzip, deflate
+Action.c(23):     accept-language = en-US,en;q=0.8
+Action.c(23):     user-agent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Action.c(23): t=2105ms: 270-byte response headers for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/appconfig" (RelFrameId=1, Internal ID=1)
+Action.c(23):     HTTP/2.0 200\r\n
+Action.c(23):     Status: 200\r\n
+Action.c(23):     Date: Tue, 21 May 2019 07:52:59 GMT\r\n
+Action.c(23):     Content-Type: application/json;charset=UTF-8\r\n
+Action.c(23):     Content-Length: 4588\r\n
+Action.c(23):     Access-Control-Allow-Credentials: true\r\n
+Action.c(23):     Access-Control-Allow-Methods: *\r\n
+Action.c(23):     Access-Control-Max-Age: 3600\r\n
+Action.c(23):     Access-Control-Allow-Headers: *\r\n
+Action.c(23):     \r\n
+Action.c(23): t=2124ms: 4588-byte response body for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/appconfig" (RelFrameId=1, Internal ID=1)
+Action.c(23):     {"status":{"code":0,"analytics":{"status":"Success","guid":"1cd03778-a720-40bf-af38-743f1d
+Action.c(23):     a8f0fd"}},"lastAPICall":"2019-05-21T08:52:59","versions":{"CURRENT_CHARGES_CONTENT_STRINGS
+Action.c(23):     ":"2019-02-22T12:16:22Z","JOURNEYS":"2019-05-16T12:30:13Z","APP_RATING":"2019-02-22T11:36:
+Action.c(23):     13Z","RED_SHARER_CONTENT_STRINGS":"2019-02-22T11:36:14Z","SALUTATION_VOVS":"2019-02-22T11:
+Action.c(23):     36:13Z","NETWORK_SATISFACTION":"2019-02-22T11:36:10Z","ILNG_SCREENS_CONTENT":"2019-02-22T1
+Action.c(23):     1:36:13Z","ILNG_FORM_DATA":"2019-02-22T11:36:12Z","TOPUP_CONTENT_STRINGS":"2019-02-22T11:3
+Action.c(23):     6:04Z","ERROR_CATALOG":"2019-05-07T15:21:42Z","GENERAL":"2019-02-22T11:36:09Z","PRODUCTS_A
+Action.c(23):     ND_SERVICES_CONTENT_STRINGS":"2019-02-22T11:36:13Z","PRIVACY_SUPPLEMENTS_CONTENT_STRINGS":
+Action.c(23):     "2019-05-16T12:30:13Z","NETPERFORM":"2019-02-25T10:45:55Z","IDENTITY":"2019-05-16T12:30:13
+Action.c(23):     Z","WELCOME_SUPPLEMENTS_CONTENT_STRINGS":"2019-02-25T10:45:55Z","HOW_TO_UPGRADE_CONTENT_ST
+Action.c(23):     RINGS":"2019-02-22T11:36:03Z","CTA_MAPPING_CONTENT":"2019-05-16T12:30:13Z","DASHBOARD_CONT
+Action.c(23):     ENT_STRINGS":"2019-02-22T11:36:00Z","SETTING":"2019-05-16T12:30:13Z","LATEST_BILLS_CONTENT
+Action.c(23):     _STRINGS":"2019-02-22T11:36:03Z"},"startupSettings":{"currentChargesHistoryMaxAge":"259200
+Action.c(23):     0","encIV":"xrx1BJE679KLDKyqzG1o8Q==","DashboardPollInterval":"300","passwordEncryptionCer
+Action.c(23):     tificate":"MIICgzCCAeygAwIBAgIEXErvUTANBgkqhkiG9w0BAQsFADCBhTELMAkGA1UEBhMCVUsxFzAVBgNVBAg
+Action.c(23):     MDldlc3QgQmVya3NoaXJlMRAwDgYDVQQHDAdOZXdidXJ5MRcwFQYDVQQKDA52b2RhZm9uZS5jby51azEXMBUGA1UEC
+Action.c(23):     wwOdm9kYWZvbmUuY28udWsxGTAXBgNVBAMMECoudm9kYWZvbmUuY28udWswHhcNMTkwMTI1MTExMzIxWhcNMjAwMTI
+Action.c(23):     1MTExMzIxWjCBhTELMAkGA1UEBhMCVUsxFzAVBgNVBAgMDldlc3QgQmVya3NoaXJlMRAwDgYDVQQHDAdOZXdidXJ5M
+Action.c(23):     RcwFQYDVQQKDA52b2RhZm9uZS5jby51azEXMBUGA1UECwwOdm9kYWZvbmUuY28udWsxGTAXBgNVBAMMECoudm9kYWZ
+Action.c(23):     vbmUuY28udWswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOWGCPZw6baduU4AS82crR1CFt2c9pAYc+fT9M3v8
+Action.c(23):     l8e+mChjcKD3UZuE0rVX8m4BjJo+ELWC6Hj7iZnaWHT920eKWXMcwRnbpQgc97/efcBB3/0wmNZd4dHHnpr15fkTu+
+Action.c(23):     Am2yqgonJPBs4PX5w8qQCX41/1DJJaBgiM/TuJtbXAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAtZgRNALF6g719LWOu
+Action.c(23):     m6xcMd9yDb3kEAcvqZThMtciwV4kgeCi0y3b+WnUkh7QLSlDu/obApjSlUPKhojDt5R0rMiwWihKytr0sLRHME1ExP
+Action.c(23):     BU3YSdCCmhws4g71Lzr6zuTrVMCc+a6TziOgFQsZnN3WaCqvquFfVrRlUazoWI6Q=","locationManagerTimeout
+Action.c(23):     ":"5","vestawhitelist":"?ACTION=PD&SessionKey=,?ACTION=TC&SessionKey=,TheApp.refreshState(
+Action.c(23):     ","pinValidationRegexList":"[\\"%5E%28%3F%21%28.%29%5C1%7B3%7D%29%5Cd%7B4%7D%24\\",\\"%5E%
+Action.c(23):     28%3F%211234%29.%2A\\"]","SegmentMaxAge":"2592000","BillsHistoryPollInterval":"300","SubsC
+Action.c(23):     onfigMaxAge":"2592000","pullToRefreshTutorialCount":"3","vestaurl":"https://vodafone-uk-mo
+Action.c(23):     bileapp.ecustomersupport.com/VodafoneUKMobileWebUI/UI","BillsHistoryMaxAge":"2592000","Seg
+Action.c(23):     mentPollPeriod":"3600","DashboardMaxAge":"2592000","VOVMaxAge":"2592000","webviewRequestTi
+Action.c(23):     meout":"15","morningBGImageStartTime":"00:00","appRateDaysUntilPrompt":"14","VOVAPIPollPer
+Action.c(23):     iod":"300","SoftClosePeriod":"600","maxSharerDataLockMins":"1440","appRateUsesUntilPrompt"
+Action.c(23):     :"10","touchIdEnabled":"true","encKey":"yq/6EFItSDembxA6Mebc9UmkVxqEJ3dbncIC0v0itec=","App
+Action.c(23):     ConfigMaxFallback":"2592000","currentChargesHistoryPollInterval":"300","eveningBGImageStar
+Action.c(23):     tTime":"18:00","ProductsAndServicesMaxAge":"2592000","pinEncryptionCertificate":"MIICgzCCA
+Action.c(23):     eygAwIBAgIEXErvUTANBgkqhkiG9w0BAQsFADCBhTELMAkGA1UEBhMCVUsxFzAVBgNVBAgMDldlc3QgQmVya3NoaXJ
+Action.c(23):     lMRAwDgYDVQQHDAdOZXdidXJ5MRcwFQYDVQQKDA52b2RhZm9uZS5jby51azEXMBUGA1UECwwOdm9kYWZvbmUuY28ud
+Action.c(23):     WsxGTAXBgNVBAMMECoudm9kYWZvbmUuY28udWswHhcNMTkwMTI1MTExMzIxWhcNMjAwMTI1MTExMzIxWjCBhTELMAk
+Action.c(23):     GA1UEBhMCVUsxFzAVBgNVBAgMDldlc3QgQmVya3NoaXJlMRAwDgYDVQQHDAdOZXdidXJ5MRcwFQYDVQQKDA52b2RhZ
+Action.c(23):     m9uZS5jby51azEXMBUGA1UECwwOdm9kYWZvbmUuY28udWsxGTAXBgNVBAMMECoudm9kYWZvbmUuY28udWswgZ8wDQY
+Action.c(23):     JKoZIhvcNAQEBBQADgY0AMIGJAoGBAOWGCPZw6baduU4AS82crR1CFt2c9pAYc+fT9M3v8l8e+mChjcKD3UZuE0rVX
+Action.c(23):     8m4BjJo+ELWC6Hj7iZnaWHT920eKWXMcwRnbpQgc97/efcBB3/0wmNZd4dHHnpr15fkTu+Am2yqgonJPBs4PX5w8qQ
+Action.c(23):     CX41/1DJJaBgiM/TuJtbXAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAtZgRNALF6g719LWOum6xcMd9yDb3kEAcvqZTh
+Action.c(23):     MtciwV4kgeCi0y3b+WnUkh7QLSlDu/obApjSlUPKhojDt5R0rMiwWihKytr0sLRHME1ExPBU3YSdCCmhws4g71Lzr6
+Action.c(23):     zuTrVMCc+a6TziOgFQsZnN3WaCqvquFfVrRlUazoWI6Q=","MinNoOfBillsToShowGraph":"3","ProductsAndS
+Action.c(23):     ervicesPollInterval":"300"},"timeouts":{"resetPassword":"10","authToken":"10","appconfig":
+Action.c(23):     "10","sharerDetail":"10","upgrades":"10","content":"10","softToken":"10","billHistory":"10
+Action.c(23):     ","passwordLogin":"10","productsandservices":"15","networkFeedbackCenter":"10","topUpCards
+Action.c(23):     ":"10","segment":"10","vov":"10","subsConfig":"10","dashboard":"15","pinLogin":"10","updat
+Action.c(23):     ePassword":"10","subscriptionList":"10","hansolo":"10","sendILNG":"10","currentcharges":"1
+Action.c(23):     0","hint":"10","changePin":"10","networkSatisfaction":"10","ssoToken":"10","username":"10"
+Action.c(23):     }}
+Action.c(23): t=2127ms: 0-byte response body for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/appconfig" (RelFrameId=1, Internal ID=1)
+Action.c(23): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/appconfig"  	[MsgId: MMSG-26548]
+Action.c(23): web_custom_request("web_custom_request") was successful, 9194 body bytes, 270 header bytes  	[MsgId: MMSG-26386]
+Action.c(31): Notify: Transaction "MVAX_AppStart_PAYM_01_GetAppConfig" ended with a "Pass" status (Duration: 1.5427 Wasted Time: 1.1826).
+Action.c(33): lr_think_time: 5.00 seconds.
+Action.c(35): web_add_header("Subscription") started  	[MsgId: MMSG-26355]
+Action.c(35): Notify: Parameter Substitution: parameter "p_MSISDN_PayM" =  "447867622307"
+Action.c(35): web_add_header("Subscription") was successful  	[MsgId: MMSG-26392]
+Action.c(36): Notify: Parameter Substitution: parameter "p_AuthToken" =  "EwEC6IUyVq2E9+qIljyDO3z+egEEoz/OyheL9HheecIVM05HunZxiAmv6ghJ2uIWbaAyU4W3PlgmNSIxDrtyJVP2vElswrEjmzyVI+UHRi9YsNA5BjtiY7iAin0r+8SR7BVpfqWm0/Mk7Jsl+6x5pDYmx/GgP+gb5wwUwtJQNTBpue7ppl1T7WDbENFZ8VdudihqTtdVdVeLG5UMXGkMt/fcmOAwWl0odwnTzYkvpGrhfpRvxtPpVSqPUTIwG/D45IAmaJWjRpTe7QijuWzvlpFZ219gIJMzzPE1/2R0aVjI1Ubq6QxqAlW97Nx23ns0gvihb5XRWY8gJ7AU3NJr+A=="
+Action.c(36): web_add_header("authenticationToken") started  	[MsgId: MMSG-26355]
+Action.c(36): web_add_header("authenticationToken") was successful  	[MsgId: MMSG-26392]
+Action.c(37): web_add_header("Root-Subscription") started  	[MsgId: MMSG-26355]
+Action.c(37): web_add_header("Root-Subscription") was successful  	[MsgId: MMSG-26392]
+Action.c(39): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(41): Notify: Transaction "MVAX_AppStart_PAYM_02_GetHansoloToken" started.
+Action.c(43): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(43): Notify: Parameter Substitution: parameter "p_HOSTNAME" =  "nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk"
+Action.c(43): The request to server https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/testHansolo" is done with headers:
+Action.c(43):     :authority = nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk
+Action.c(43):     :method = GET
+Action.c(43):     :path = /app/api/v1/testHansolo
+Action.c(43):     :scheme = https
+Action.c(43):     subscription = 447867622307
+Action.c(43):     authenticationtoken = EwEC6IUyVq2E9+qIljyDO3z+egEEoz/OyheL9HheecIVM05HunZxiAmv6ghJ2uIWbaAy
+Action.c(43):     U4W3PlgmNSIxDrtyJVP2vElswrEjmzyVI+UHRi9YsNA5BjtiY7iAin0r+8SR7BVpfqWm0/Mk7Jsl+6x5pDYmx/GgP+
+Action.c(43):     gb5wwUwtJQNTBpue7ppl1T7WDbENFZ8VdudihqTtdVdVeLG5UMXGkMt/fcmOAwWl0odwnTzYkvpGrhfpRvxtPpVSqP
+Action.c(43):     UTIwG/D45IAmaJWjRpTe7QijuWzvlpFZ219gIJMzzPE1/2R0aVjI1Ubq6QxqAlW97Nx23ns0gvihb5XRWY8gJ7AU3N
+Action.c(43):     Jr+A==
+Action.c(43):     root-subscription = 1
+Action.c(43):     accept = application/json
+Action.c(43):     accept-encoding = gzip, deflate
+Action.c(43):     accept-language = en-US,en;q=0.8
+Action.c(43):     user-agent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Action.c(43): t=7374ms: 269-byte response headers for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/testHansolo" (RelFrameId=1, Internal ID=2)
+Action.c(43):     HTTP/2.0 200\r\n
+Action.c(43):     Status: 200\r\n
+Action.c(43):     Date: Tue, 21 May 2019 07:53:05 GMT\r\n
+Action.c(43):     Content-Type: application/json;charset=UTF-8\r\n
+Action.c(43):     Content-Length: 221\r\n
+Action.c(43):     Access-Control-Allow-Credentials: true\r\n
+Action.c(43):     Access-Control-Allow-Methods: *\r\n
+Action.c(43):     Access-Control-Max-Age: 3600\r\n
+Action.c(43):     Access-Control-Allow-Headers: *\r\n
+Action.c(43):     \r\n
+Action.c(43): t=7381ms: 221-byte response body for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/testHansolo" (RelFrameId=1, Internal ID=2)
+Action.c(43):     {"status":{"code":0,"analytics":{"status":"SUCCESS","guid":"d8a3d20c-b7e7-4d86-aea9-691aee
+Action.c(43):     e359e8"}},"lastAPICall":"2019-05-21T08:53:05","mspHansoloToken":"596f4e2f0f138edf478d6f9c4
+Action.c(43):     17ff702557b6f1257172c563b8a312c0309cfb3"}
+Action.c(43): Notify: Saving Parameter "c_hansoloToken = 596f4e2f0f138edf478d6f9c417ff702557b6f1257172c563b8a312c0309cfb3".
+Action.c(43): t=7381ms: 0-byte response body for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/testHansolo" (RelFrameId=1, Internal ID=2)
+Action.c(43): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/testHansolo"  	[MsgId: MMSG-26548]
+Action.c(43): web_custom_request("web_custom_request") was successful, 460 body bytes, 269 header bytes  	[MsgId: MMSG-26386]
+Action.c(51): Notify: Transaction "MVAX_AppStart_PAYM_02_GetHansoloToken" ended with a "Pass" status (Duration: 0.0935 Wasted Time: 0.0116).
+Action.c(53): lr_think_time: 5.00 seconds.
+Action.c(55): Notify: Parameter Substitution: parameter "c_hansoloToken" =  "596f4e2f0f138edf478d6f9c417ff702557b6f1257172c563b8a312c0309cfb3"
+Action.c(55): web_add_header("Msp-Hansolo-Token") started  	[MsgId: MMSG-26355]
+Action.c(55): web_add_header("Msp-Hansolo-Token") was successful  	[MsgId: MMSG-26392]
+Action.c(56): web_add_header("Subscription") started  	[MsgId: MMSG-26355]
+Action.c(56): Notify: Parameter Substitution: parameter "p_MSISDN_PayM" =  "447867622307"
+Action.c(56): web_add_header("Subscription") was successful  	[MsgId: MMSG-26392]
+Action.c(57): Notify: Parameter Substitution: parameter "p_AuthToken" =  "EwEC6IUyVq2E9+qIljyDO3z+egEEoz/OyheL9HheecIVM05HunZxiAmv6ghJ2uIWbaAyU4W3PlgmNSIxDrtyJVP2vElswrEjmzyVI+UHRi9YsNA5BjtiY7iAin0r+8SR7BVpfqWm0/Mk7Jsl+6x5pDYmx/GgP+gb5wwUwtJQNTBpue7ppl1T7WDbENFZ8VdudihqTtdVdVeLG5UMXGkMt/fcmOAwWl0odwnTzYkvpGrhfpRvxtPpVSqPUTIwG/D45IAmaJWjRpTe7QijuWzvlpFZ219gIJMzzPE1/2R0aVjI1Ubq6QxqAlW97Nx23ns0gvihb5XRWY8gJ7AU3NJr+A=="
+Action.c(57): web_add_header("authenticationToken") started  	[MsgId: MMSG-26355]
+Action.c(57): web_add_header("authenticationToken") was successful  	[MsgId: MMSG-26392]
+Action.c(58): web_add_header("Root-Subscription") started  	[MsgId: MMSG-26355]
+Action.c(58): web_add_header("Root-Subscription") was successful  	[MsgId: MMSG-26392]
+Action.c(61): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(61): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(68): Notify: Transaction "MVAX_AppStart_PAYM_03_SoftToken" started.
+Action.c(70): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(70): Notify: Parameter Substitution: parameter "p_HOSTNAME" =  "nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk"
+Action.c(70): The request to server https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/softToken" is done with headers:
+Action.c(70):     :authority = nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk
+Action.c(70):     :method = GET
+Action.c(70):     :path = /app/api/v1/softToken
+Action.c(70):     :scheme = https
+Action.c(70):     msp-hansolo-token = 596f4e2f0f138edf478d6f9c417ff702557b6f1257172c563b8a312c0309cfb3
+Action.c(70):     subscription = 447867622307
+Action.c(70):     authenticationtoken = EwEC6IUyVq2E9+qIljyDO3z+egEEoz/OyheL9HheecIVM05HunZxiAmv6ghJ2uIWbaAy
+Action.c(70):     U4W3PlgmNSIxDrtyJVP2vElswrEjmzyVI+UHRi9YsNA5BjtiY7iAin0r+8SR7BVpfqWm0/Mk7Jsl+6x5pDYmx/GgP+
+Action.c(70):     gb5wwUwtJQNTBpue7ppl1T7WDbENFZ8VdudihqTtdVdVeLG5UMXGkMt/fcmOAwWl0odwnTzYkvpGrhfpRvxtPpVSqP
+Action.c(70):     UTIwG/D45IAmaJWjRpTe7QijuWzvlpFZ219gIJMzzPE1/2R0aVjI1Ubq6QxqAlW97Nx23ns0gvihb5XRWY8gJ7AU3N
+Action.c(70):     Jr+A==
+Action.c(70):     root-subscription = 1
+Action.c(70):     accept = application/json
+Action.c(70):     accept-encoding = gzip, deflate
+Action.c(70):     accept-language = en-US,en;q=0.8
+Action.c(70):     user-agent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Action.c(70): t=12718ms: 269-byte response headers for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/softToken" (RelFrameId=1, Internal ID=3)
+Action.c(70):     HTTP/2.0 200\r\n
+Action.c(70):     Status: 200\r\n
+Action.c(70):     Date: Tue, 21 May 2019 07:53:10 GMT\r\n
+Action.c(70):     Content-Type: application/json;charset=UTF-8\r\n
+Action.c(70):     Content-Length: 477\r\n
+Action.c(70):     Access-Control-Allow-Credentials: true\r\n
+Action.c(70):     Access-Control-Allow-Methods: *\r\n
+Action.c(70):     Access-Control-Max-Age: 3600\r\n
+Action.c(70):     Access-Control-Allow-Headers: *\r\n
+Action.c(70):     \r\n
+Action.c(70): t=12726ms: 477-byte response body for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/softToken" (RelFrameId=1, Internal ID=3)
+Action.c(70):     {"status":{"code":0,"analytics":{"status":"SUCCESS","guid":"2964fffc-d9f8-4e3e-8084-30afe9
+Action.c(70):     65696c"}},"lastAPICall":"2019-05-21T08:53:10","backendJwtSoftToken":"eyJhbGciOiJIUzI1NiJ9.
+Action.c(70):     eyJpYXQiOjE1NTg0MjUxOTAsImF1dGhDb250ZXh0Ijp7InVzZXJOYW1lIjpudWxsLCJjb250YWN0SWQiOm51bGwsIn
+Action.c(70):     Njb3BlIjoiU09GVF9MT0dJTiIsImNoYW5uZWxJZCI6Im1pZyIsImFjY291bnRzIjpudWxsLCJtc2lzZG4iOiI0NDc4
+Action.c(70):     Njc2MjIzMDcifSwiZXhwIjoxNTczOTc3MTkwfQ.MSmA7ockboKPbSpYaeAsU9yqvyB5x2fxCjtdxsd2XYg","subsc
+Action.c(70):     riptionRef":"447867622307"}
+Action.c(70): Notify: Saving Parameter "c_JWTSoftToken = eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTg0MjUxOTAsImF1dGhDb250ZXh0Ijp7InVzZXJOYW1lIjpudWxsLCJjb250YWN0SWQiOm51bGwsInNjb3BlIjoiU09GVF9MT0dJTiIsImNoYW5uZWxJZCI6Im1pZyIsImFjY291bnRzIjpudWxsLCJtc2lzZG4iOiI0NDc4Njc2MjIzMDcifSwiZXhwIjoxNTczOTc3MTkwfQ.MSmA7ockboKPbSpYaeAsU9yqvyB5x2fxCjtdxsd2XYg".
+Action.c(70): t=12726ms: 0-byte response body for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/softToken" (RelFrameId=1, Internal ID=3)
+Action.c(70): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/softToken"  	[MsgId: MMSG-26548]
+Action.c(70): web_custom_request("web_custom_request") was successful, 972 body bytes, 269 header bytes  	[MsgId: MMSG-26386]
+Action.c(79): Notify: Transaction "MVAX_AppStart_PAYM_03_SoftToken" ended with a "Pass" status (Duration: 0.2343 Wasted Time: 0.0113).
+Action.c(81): lr_think_time: 5.00 seconds.
+Action.c(83): web_add_header("Subscription") started  	[MsgId: MMSG-26355]
+Action.c(83): Notify: Parameter Substitution: parameter "p_MSISDN_PayM" =  "447867622307"
+Action.c(83): web_add_header("Subscription") was successful  	[MsgId: MMSG-26392]
+Action.c(84): Notify: Parameter Substitution: parameter "p_AuthToken" =  "EwEC6IUyVq2E9+qIljyDO3z+egEEoz/OyheL9HheecIVM05HunZxiAmv6ghJ2uIWbaAyU4W3PlgmNSIxDrtyJVP2vElswrEjmzyVI+UHRi9YsNA5BjtiY7iAin0r+8SR7BVpfqWm0/Mk7Jsl+6x5pDYmx/GgP+gb5wwUwtJQNTBpue7ppl1T7WDbENFZ8VdudihqTtdVdVeLG5UMXGkMt/fcmOAwWl0odwnTzYkvpGrhfpRvxtPpVSqPUTIwG/D45IAmaJWjRpTe7QijuWzvlpFZ219gIJMzzPE1/2R0aVjI1Ubq6QxqAlW97Nx23ns0gvihb5XRWY8gJ7AU3NJr+A=="
+Action.c(84): web_add_header("authenticationToken") started  	[MsgId: MMSG-26355]
+Action.c(84): web_add_header("authenticationToken") was successful  	[MsgId: MMSG-26392]
+Action.c(85): web_add_header("Root-Subscription") started  	[MsgId: MMSG-26355]
+Action.c(85): web_add_header("Root-Subscription") was successful  	[MsgId: MMSG-26392]
+Action.c(86): web_add_header("Device-UID") started  	[MsgId: MMSG-26355]
+Action.c(86): web_add_header("Device-UID") was successful  	[MsgId: MMSG-26392]
+Action.c(87): web_add_header("OS-Version") started  	[MsgId: MMSG-26355]
+Action.c(87): web_add_header("OS-Version") was successful  	[MsgId: MMSG-26392]
+Action.c(88): web_add_header("Manufacturer") started  	[MsgId: MMSG-26355]
+Action.c(88): web_add_header("Manufacturer") was successful  	[MsgId: MMSG-26392]
+Action.c(89): web_add_header("Platform") started  	[MsgId: MMSG-26355]
+Action.c(89): web_add_header("Platform") was successful  	[MsgId: MMSG-26392]
+Action.c(90): web_add_header("Device-Model") started  	[MsgId: MMSG-26355]
+Action.c(90): web_add_header("Device-Model") was successful  	[MsgId: MMSG-26392]
+Action.c(91): web_add_header("App-Version") started  	[MsgId: MMSG-26355]
+Action.c(91): web_add_header("App-Version") was successful  	[MsgId: MMSG-26392]
+Action.c(92): web_add_header("JWT") started  	[MsgId: MMSG-26355]
+Action.c(92): Notify: Parameter Substitution: parameter "c_JWTSoftToken" =  "eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTg0MjUxOTAsImF1dGhDb250ZXh0Ijp7InVzZXJOYW1lIjpudWxsLCJjb250YWN0SWQiOm51bGwsInNjb3BlIjoiU09GVF9MT0dJTiIsImNoYW5uZWxJZCI6Im1pZyIsImFjY291bnRzIjpudWxsLCJtc2lzZG4iOiI0NDc4Njc2MjIzMDcifSwiZXhwIjoxNTczOTc3MTkwfQ.MSmA7ockboKPbSpYaeAsU9yqvyB5x2fxCjtdxsd2XYg"
+Action.c(92): web_add_header("JWT") was successful  	[MsgId: MMSG-26392]
+Action.c(94): Notify: Transaction "MVAX_AppStart_PAYM_04_GetSegment" started.
+Action.c(96): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(96): Notify: Parameter Substitution: parameter "p_HOSTNAME" =  "nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk"
+Action.c(96): The request to server https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/segment" is done with headers:
+Action.c(96):     :authority = nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk
+Action.c(96):     :method = GET
+Action.c(96):     :path = /app/api/v1/segment
+Action.c(96):     :scheme = https
+Action.c(96):     subscription = 447867622307
+Action.c(96):     authenticationtoken = EwEC6IUyVq2E9+qIljyDO3z+egEEoz/OyheL9HheecIVM05HunZxiAmv6ghJ2uIWbaAy
+Action.c(96):     U4W3PlgmNSIxDrtyJVP2vElswrEjmzyVI+UHRi9YsNA5BjtiY7iAin0r+8SR7BVpfqWm0/Mk7Jsl+6x5pDYmx/GgP+
+Action.c(96):     gb5wwUwtJQNTBpue7ppl1T7WDbENFZ8VdudihqTtdVdVeLG5UMXGkMt/fcmOAwWl0odwnTzYkvpGrhfpRvxtPpVSqP
+Action.c(96):     UTIwG/D45IAmaJWjRpTe7QijuWzvlpFZ219gIJMzzPE1/2R0aVjI1Ubq6QxqAlW97Nx23ns0gvihb5XRWY8gJ7AU3N
+Action.c(96):     Jr+A==
+Action.c(96):     root-subscription = 1
+Action.c(96):     device-uid = amruta
+Action.c(96):     os-version = 7
+Action.c(96):     manufacturer = Samsung
+Action.c(96):     platform = Android
+Action.c(96):     device-model = Galaxy S3
+Action.c(96):     app-version = 8
+Action.c(96):     jwt = eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTg0MjUxOTAsImF1dGhDb250ZXh0Ijp7InVzZXJOYW1lIjpudWx
+Action.c(96):     sLCJjb250YWN0SWQiOm51bGwsInNjb3BlIjoiU09GVF9MT0dJTiIsImNoYW5uZWxJZCI6Im1pZyIsImFjY291bnRzI
+Action.c(96):     jpudWxsLCJtc2lzZG4iOiI0NDc4Njc2MjIzMDcifSwiZXhwIjoxNTczOTc3MTkwfQ.MSmA7ockboKPbSpYaeAsU9yq
+Action.c(96):     vyB5x2fxCjtdxsd2XYg
+Action.c(96):     accept = application/json
+Action.c(96):     accept-encoding = gzip, deflate
+Action.c(96):     accept-language = en-US,en;q=0.8
+Action.c(96):     user-agent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Action.c(96): t=18733ms: 269-byte response headers for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/segment" (RelFrameId=1, Internal ID=4)
+Action.c(96):     HTTP/2.0 500\r\n
+Action.c(96):     Status: 500\r\n
+Action.c(96):     Date: Tue, 21 May 2019 07:53:16 GMT\r\n
+Action.c(96):     Content-Type: application/json;charset=UTF-8\r\n
+Action.c(96):     Content-Length: 103\r\n
+Action.c(96):     Access-Control-Allow-Credentials: true\r\n
+Action.c(96):     Access-Control-Allow-Methods: *\r\n
+Action.c(96):     Access-Control-Max-Age: 3600\r\n
+Action.c(96):     Access-Control-Allow-Headers: *\r\n
+Action.c(96):     \r\n
+Action.c(96): t=18740ms: 103-byte response body for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/segment" (RelFrameId=1, Internal ID=4)
+Action.c(96):     {"status":{"code":4300,"analytics":{"guid":"7a8ac57c-e0e9-4877-a715-b9842ec39e5d"}},"lastA
+Action.c(96):     PICall":null}
+Action.c(96): t=18740ms: 0-byte response body for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/segment" (RelFrameId=1, Internal ID=4)
+Action.c(96): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/segment"  	[MsgId: MERR-26612]
+Action.c(96): web_custom_request("web_custom_request") highest severity level was "ERROR", 224 body bytes, 269 header bytes  	[MsgId: MMSG-26388]
+Action.c(96): Notify: Transaction "MVAX_AppStart_PAYM_04_GetSegment" ended with a "Fail" status (Duration: 0.8102 Wasted Time: 0.0134).
+Action.c(96): Notify: Transaction "MVAX_AppStart_PAYM_04_GetSegment" has 1 error message(s).
+Action.c(96): Notify: The 1st error message associated with transaction "MVAX_AppStart_PAYM_04_GetSegment" is "Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://nlb-mvax.digitalx-pat.svc.vodafoneaws.co.uk/app/api/v1/segment""
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 10076), ended OK."

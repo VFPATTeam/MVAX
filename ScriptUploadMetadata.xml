@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>AppStart_PAYM</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="AppStart_PAYM.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="AppStart_PAYM.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="p_AuthToken.dat" Filter="2" />
+    <FileEntry Name="msisdn_M.dat" Filter="2" />
+    <FileEntry Name="p_HOSTNAME.dat" Filter="2" />
+    <FileEntry Name="script_operations.xml" Filter="2" />
+    <FileEntry Name="combined_AppStart_PAYM.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="109062512440.idx" Filter="1" />
+    <FileEntry Name="144583166440.idx" Filter="1" />
+    <FileEntry Name="168157296440.idx" Filter="1" />
+    <FileEntry Name="197635716440.idx" Filter="1" />
+    <FileEntry Name="33727500440.idx" Filter="1" />
+    <FileEntry Name="80059513440.idx" Filter="1" />
+    <FileEntry Name="8005951344_0jV.549.idx" Filter="1" />
+    <FileEntry Name="8005951344_2yN.917.idx" Filter="1" />
+    <FileEntry Name="8005951344_3YK.767.idx" Filter="1" />
+    <FileEntry Name="8005951344_4lr.407.idx" Filter="1" />
+    <FileEntry Name="8005951344_7Jb.47.idx" Filter="1" />
+    <FileEntry Name="8005951344_8Ad.199.idx" Filter="1" />
+    <FileEntry Name="8005951344_AQd.5.idx" Filter="1" />
+    <FileEntry Name="8005951344_brL.465.idx" Filter="1" />
+    <FileEntry Name="8005951344_bz5.343.idx" Filter="1" />
+    <FileEntry Name="8005951344_C0Q.703.idx" Filter="1" />
+    <FileEntry Name="8005951344_C7G.229.idx" Filter="1" />
+    <FileEntry Name="8005951344_CTU.521.idx" Filter="1" />
+    <FileEntry Name="8005951344_Djb.553.idx" Filter="1" />
+    <FileEntry Name="8005951344_dMh.963.idx" Filter="1" />
+    <FileEntry Name="8005951344_FiI.155.idx" Filter="1" />
+    <FileEntry Name="8005951344_Fri.107.idx" Filter="1" />
+    <FileEntry Name="8005951344_gtO.989.idx" Filter="1" />
+    <FileEntry Name="8005951344_HsA.393.idx" Filter="1" />
+    <FileEntry Name="8005951344_Jsl.619.idx" Filter="1" />
+    <FileEntry Name="8005951344_kEg.565.idx" Filter="1" />
+    <FileEntry Name="8005951344_KpT.741.idx" Filter="1" />
+    <FileEntry Name="8005951344_lGk.323.idx" Filter="1" />
+    <FileEntry Name="8005951344_nJX.759.idx" Filter="1" />
+    <FileEntry Name="8005951344_Pjp.407.idx" Filter="1" />
+    <FileEntry Name="8005951344_pzz.137.idx" Filter="1" />
+    <FileEntry Name="8005951344_RXq.741.idx" Filter="1" />
+    <FileEntry Name="8005951344_sDh.845.idx" Filter="1" />
+    <FileEntry Name="8005951344_tfQ.237.idx" Filter="1" />
+    <FileEntry Name="8005951344_Ub9.767.idx" Filter="1" />
+    <FileEntry Name="8005951344_UPw.563.idx" Filter="1" />
+    <FileEntry Name="8005951344_vUG.667.idx" Filter="1" />
+    <FileEntry Name="8005951344_w6K.147.idx" Filter="1" />
+    <FileEntry Name="8005951344_wW4.767.idx" Filter="1" />
+    <FileEntry Name="8005951344_ycx.893.idx" Filter="1" />
+    <FileEntry Name="8005951344_yga.893.idx" Filter="1" />
+    <FileEntry Name="8005951344_ygv.181.idx" Filter="1" />
+    <FileEntry Name="89716926440.idx" Filter="1" />
+    <FileEntry Name="AppStart_PAYM.c.pickle" Filter="1" />
+    <FileEntry Name="AppStart_PAYM.ci" Filter="1" />
+    <FileEntry Name="AppStart_PAYM.prm.bak" Filter="1" />
+    <FileEntry Name="AppStart_PAYM.sdf" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="MVAX_Combined_1.0.prm.bak" Filter="1" />
+    <FileEntry Name="MVAX_Combined_1.prm" Filter="1" />
+    <FileEntry Name="MVAX_Combined_1.prm.bak" Filter="1" />
+    <FileEntry Name="MVAX_PAYM.prm.bak" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="report_view.xsl" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+    <FileEntry Name="WSDL\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>
